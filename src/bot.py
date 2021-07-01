@@ -39,7 +39,8 @@ def creatPhishCase(update,contenxt):
     promoteAlertToPhishCase(alert_id)
     update.message.reply_text('Caso de posible phishing creado correctamente' + '\U0001F600')
     logger.info('OK')
-    ConversationHandler.END
+    return ConversationHandler.END
+
 def alertToIncidentCase(update,context):
     logger.info('Promoviendo alerta a un caso')
     update.message.reply_text('Es necesario que me pases el alert id para crear el caso %s.' % update.message.from_user.name)
@@ -50,7 +51,8 @@ def creatIncidentCase(update,contenxt):
     promoteAlertToIncidentCase(alert_id)
     update.message.reply_text('Incidente creado correctamente' + '\U0001F600')
     logger.info('OK')
-    ConversationHandler.END
+    update.message.text = ''
+    return ConversationHandler.END
 
 
 
@@ -70,7 +72,7 @@ def updateIoc(update, context):
     if len(hashes) != 0:
         logger.info('Los Hash: %s' % hashes)
         update.message.reply_text('Se recibio el IoC, procederemos a aplicar los siguientes cambios. Hashes: %s' % hashes)
-    ConversationHandler.END
+    return ConversationHandler.END
 
 """ Main del Programa """
 if __name__ == '__main__':

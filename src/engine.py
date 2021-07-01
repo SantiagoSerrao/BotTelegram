@@ -43,7 +43,8 @@ def read_alerts():
         return 'Alerta leida ' +  clave['id']
 
 def promoteAlertToPhishCase(alert_id):
-        api.promote_alert_to_case(alert_id, case_template='Phishing_Case')
+    api.promote_alert_to_case(alert_id, case_template='Phishing_Case')
+
 
 def promoteAlertToIncidentCase(alert_id):
     api.promote_alert_to_case(alert_id, case_template='Incident_Investigation')
