@@ -3,8 +3,8 @@ from thehive4py.api import TheHiveApi
 from thehive4py.models import *
 from thehive4py.query import *
 
-THEHIVE_URL = 'http://10.162.1.124:9000'
-THEHIVE_API_KEY = 'YEvjNWm5EZtYVV7biWb84qLxB+0wV0+T'
+THEHIVE_URL = ''
+THEHIVE_API_KEY = ''
 api = TheHiveApi(THEHIVE_URL, THEHIVE_API_KEY)
 
 """ Chiste de Prueba """
