@@ -39,6 +39,7 @@ def creatPhishCase(update,contenxt):
     promoteAlertToPhishCase(alert_id)
     update.message.reply_text('Caso de posible phishing creado correctamente' + '\U0001F600')
     logger.info('OK')
+    update.message.text = ''
     return ConversationHandler.END
 
 def alertToIncidentCase(update,context):
