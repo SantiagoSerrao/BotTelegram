@@ -17,4 +17,4 @@ ADD . /code/
 RUN pip install -r requirements.txt  
 
 RUN chmod a+x scripts/run.sh
-CMD ["/code/scripts/run.sh"]`
+CMD  ["/code/scripts/run.sh"]`

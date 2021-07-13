@@ -40,7 +40,8 @@ def read_alerts():
     #recorro y voy marcando como leido
     for clave in json_data:
         api.mark_alert_as_read(clave['id'])
-        return 'Alerta leida ' +  clave['id']
+        return 'Alerta leida. En caso que quieras crear un caso vas a tener que darme el alert ID. De esta alerta el alert id es: ' 
+        +  clave['id']
 
 def promoteAlertToPhishCase(alert_id):
     api.promote_alert_to_case(alert_id, case_template='Phishing_Case')
