@@ -18,3 +18,9 @@ Los comandos disponibles son: <p>
 /alertas<p>
 /crearCasoPhish<p>
 /crearIncidente<p>
+
+Los pasos para ejecutarlo son : <p>
+#docker build -t hivebot . <p>
+#docker run -e TOKEN_TELEGRAM="YOUR_TELEGRAM_TOKEN"  hivebot <p>
+
+Tambien se debe configurar el chat id !
