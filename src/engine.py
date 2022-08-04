@@ -8,7 +8,7 @@ THEHIVE_API_KEY = ''
 # place to put the url and the api key
 api = TheHiveApi(THEHIVE_URL, THEHIVE_API_KEY)
 
-
+# functions
 def get_alerts():
     array_alerts = []
     query=  (
