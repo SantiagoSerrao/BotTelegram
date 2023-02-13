@@ -22,7 +22,7 @@ pycodestyle==2.6.0
 pycparser==2.20
 pycvesearch==1.0.1
 pylint==2.6.0
-python-telegram-bot==13.1
+python-telegram-bot==20.1
 pytz==2020.5
 PyYAML==5.3.1
 regex==2020.11.13
