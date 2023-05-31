@@ -30,7 +30,7 @@ requests==2.31.0
 schedule==0.6.0
 six==1.15.0
 toml==0.10.2
-tornado==6.1
+tornado==6.3.2
 tzlocal==4.2
 urllib3==1.26.2
 vulners==1.5.9
