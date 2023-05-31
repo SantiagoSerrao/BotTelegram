@@ -34,7 +34,7 @@ tornado==6.1
 tzlocal==4.2
 urllib3==1.26.2
 vulners==1.5.9
-Werkzeug==1.0.1
+Werkzeug==2.2.3
 wrapt==1.12.1
 python-magic
 pypandoc
