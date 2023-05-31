@@ -20,7 +20,7 @@ mccabe==0.6.1
 OpenVulnQuery==1.30
 pycodestyle==2.6.0
 pycparser==2.20
-pycvesearch==1.0.1
+pycvesearch==1.2
 pylint==2.6.0
 python-telegram-bot==20.1
 pytz==2020.5
