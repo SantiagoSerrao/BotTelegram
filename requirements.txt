@@ -21,7 +21,7 @@ OpenVulnQuery==1.30
 pycodestyle==2.6.0
 pycparser==2.20
 pycvesearch==1.2
-pylint==2.6.0
+pylint==2.17.4
 python-telegram-bot==20.1
 pytz==2020.5
 PyYAML==5.4
