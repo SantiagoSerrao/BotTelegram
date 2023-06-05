@@ -9,7 +9,7 @@ click==7.1.2
 cryptography==39.0.1
 decorator==4.4.2
 Flask==2.2.5
-idna==2.10
+idna==3.4
 iocextract==1.13.1
 isort==5.6.4
 itsdangerous==2.1.2
