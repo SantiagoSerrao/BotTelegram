@@ -1,7 +1,7 @@
 APScheduler==3.6.3
 ares==0.7.1
 astroid==2.4.2
-autopep8==1.5.4
+autopep8==2.0.2
 certifi==2022.12.7
 cffi==1.14.4
 chardet==3.0.4
